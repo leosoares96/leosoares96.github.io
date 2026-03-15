@@ -25,14 +25,21 @@ export default function Navbar() {
     contact: "contact",
   };
 
+  // Função para scroll suave
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-xl shadow-lg shadow-background/50" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/80 backdrop-blur-xl shadow-lg shadow-background/50" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         <a href="#" className="font-mono text-sm font-medium text-foreground tracking-tight">
@@ -45,6 +52,10 @@ export default function Navbar() {
             <a
               key={key}
               href={`#${sectionIds[key]}`}
+              onClick={(e) => {
+                e.preventDefault(); // Evita o comportamento padrão
+                handleScroll(sectionIds[key]); // Scroll suave
+              }}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               {t.nav[key]}
@@ -53,6 +64,7 @@ export default function Navbar() {
           <button
             onClick={toggleLang}
             className="ml-2 px-3 py-1.5 rounded-lg text-xs font-mono font-medium text-muted-foreground bg-secondary hover:text-foreground hover:bg-muted transition-all duration-200"
+            aria-label="Toggle Language"
           >
             {lang === "en" ? "PT-BR" : "EN"}
           </button>
@@ -63,10 +75,15 @@ export default function Navbar() {
           <button
             onClick={toggleLang}
             className="px-3 py-1.5 rounded-lg text-xs font-mono font-medium text-muted-foreground bg-secondary"
+            aria-label="Toggle Language"
           >
             {lang === "en" ? "PT-BR" : "EN"}
           </button>
-          <button onClick={() => setMobileOpen(!mobileOpen)} className="text-foreground">
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="text-foreground"
+            aria-label="Toggle Menu"
+          >
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
@@ -86,7 +103,11 @@ export default function Navbar() {
                 <a
                   key={key}
                   href={`#${sectionIds[key]}`}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault(); // Evita o comportamento padrão
+                    handleScroll(sectionIds[key]); // Scroll suave
+                    setMobileOpen(false); // Fecha o menu mobile
+                  }}
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {t.nav[key]}

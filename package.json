@@ -1,9 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "Portfolio Data Engineer - Leonardo Soares",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://leosoares96.github.io",
+  "homepage": "https://leosoares96.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
