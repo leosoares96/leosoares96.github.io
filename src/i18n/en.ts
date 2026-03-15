@@ -152,14 +152,24 @@ export const en = {
         period: '2021 — 2022',
       },
       {
+        institution: 'Instituto de Gestão e Tecnologia da Informação',
+        degree: 'Full-Stack Developed',
+        period: '2020',
+      },
+      {
         institution: 'Impacta Tecnologia',
         degree: 'Bachelor in Information Systems',
-        period: '',
+        period: '2016 – 2019',
       },
       {
         institution: 'ETEC',
         degree: 'Technical Degree in Informatics',
-        period: '',
+        period: '2016 – 2017',
+      },
+      {
+        institution: 'ETEC',
+        degree: 'Technical Degree in Informatics for Web',
+        period: '2013 – 2014',
       },
     ],
   },

@@ -41,6 +41,14 @@ function FloatingNodes() {
 export default function Hero() {
   const { t } = useI18n();
 
+  // Função para scroll suave
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <DataGrid />
@@ -102,12 +110,20 @@ export default function Hero() {
         >
           <a
             href="#experience"
+            onClick={(e) => {
+              e.preventDefault(); // Evita o comportamento padrão
+              handleScroll("experience"); // Scroll suave
+            }}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-all duration-200 glow-blue"
           >
             {t.hero.cta} <ArrowDown size={14} />
           </a>
           <a
             href="#projects"
+            onClick={(e) => {
+              e.preventDefault();
+              handleScroll("projects");
+            }}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-muted transition-all duration-200"
           >
             {t.hero.projects}
@@ -122,6 +138,10 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
+            onClick={(e) => {
+              e.preventDefault();
+              handleScroll("contact");
+            }}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-muted transition-all duration-200"
           >
             <Mail size={14} /> {t.hero.contact}

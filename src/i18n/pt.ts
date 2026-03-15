@@ -162,11 +162,25 @@ export const pt = {
         period: '2021 — 2022',
       },
       {
+        institution: 'Instituto de Gestão e Tecnologia da Informação',
+        degree: 'Desenvolvedor Full-Stack',
+        period: '2020',
+      },
+      {
         institution: 'Impacta Tecnologia',
         degree: 'Bacharelado em Sistemas de Informação',
-        period: '',
+        period: '2016 – 2019',
       },
-      { institution: 'ETEC', degree: 'Técnico em Informática', period: '' },
+      {
+        institution: 'ETEC',
+        degree: 'Técnico em Informática',
+        period: '2016 – 2017',
+      },
+      {
+        institution: 'ETEC',
+        degree: 'Técnico em Informática para Internet',
+        period: '2013 – 2014',
+      },
     ],
   },
   certifications: {
