@@ -144,6 +144,25 @@ export const pt = {
         link: 'https://github.com/leosoares96/titanic-data-pipeline-streamlit/',
       },
       {
+        title:
+          'Sindicante Digital – Plataforma Data-Driven de Gestão de Sinistros',
+        description:
+          'Plataforma B2B para gestão e análise de processos de sinistros, com ingestão, tratamento e enriquecimento de dados, geração de relatórios analíticos e apoio à tomada de decisão com indicadores e automações.',
+        tags: [
+          'Data Platform',
+          'Analytics',
+          'Data Modeling',
+          'ETL',
+          'REST API',
+          'Node.js',
+          'PostgreSQL',
+          'Microservices',
+          'Business Intelligence',
+          'Decision Systems',
+        ],
+        link: 'https://sindicantedigital.com/',
+      },
+      {
         title: 'Pipeline Analítico NYC Taxi',
         description:
           'Pipeline batch moderno com Airflow, dbt e DuckDB para processamento de dados de mobilidade em larga escala, modelagem analítica e visualização.',

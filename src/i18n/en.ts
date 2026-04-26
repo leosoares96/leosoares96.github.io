@@ -120,6 +120,24 @@ export const en = {
         link: 'https://scg-der.cloud.com.vc/',
       },
       {
+        title: 'Sindicante Digital – Data-Driven Claims Management Platform',
+        description:
+          'B2B platform for claims lifecycle management, combining data ingestion, processing, and analytics to support operational workflows, reporting, and data-driven decision-making.',
+        tags: [
+          'Data Platform',
+          'Analytics',
+          'Data Modeling',
+          'ETL',
+          'REST API',
+          'Node.js',
+          'PostgreSQL',
+          'Microservices',
+          'Business Intelligence',
+          'Decision Systems',
+        ],
+        link: 'https://sindicantedigital.com/',
+      },
+      {
         title: 'Titanic Data Pipeline',
         description:
           'Reproducible data pipeline with ingestion, transformation, data quality validation, and a serving layer with an interactive Streamlit dashboard.',
