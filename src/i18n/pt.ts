@@ -129,7 +129,7 @@ export const pt = {
         link: 'https://scg-der.cloud.com.vc/',
       },
       {
-        title: 'Pipeline de Dados Titanic (End-to-End)',
+        title: 'Pipeline de Dados Titanic',
         description:
           'Pipeline de dados reprodutível com ingestão, transformação, validação de qualidade e camada de serving com dashboard interativo em Streamlit.',
         tags: [
@@ -144,7 +144,7 @@ export const pt = {
         link: 'https://github.com/leosoares96/titanic-data-pipeline-streamlit/',
       },
       {
-        title: 'Pipeline Analítico NYC Taxi (Escala)',
+        title: 'Pipeline Analítico NYC Taxi',
         description:
           'Pipeline batch moderno com Airflow, dbt e DuckDB para processamento de dados de mobilidade em larga escala, modelagem analítica e visualização.',
         tags: [
