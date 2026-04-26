@@ -101,32 +101,53 @@ export const en = {
     viewRepo: 'View Repository',
     items: [
       {
-        title: 'AWS Data Platform Reference Architecture',
+        title:
+          'Data-Driven Platform for Public Construction Management (DER-SP)',
         description:
-          'Reference architecture for a scalable cloud data platform using AWS, S3, Glue, Athena, Kafka and Terraform.',
-        tags: ['AWS', 'S3', 'Glue', 'Athena', 'Kafka', 'Terraform'],
-        link: 'https://github.com/Leosoares96',
+          'Fullstack data-driven platform developed for the São Paulo State Department of Highways (DER-SP), enabling operational management of public construction projects through APIs, relational data modeling, and analytical dashboards for monitoring, reporting, and decision-making.',
+        tags: [
+          'PostgreSQL',
+          'Data Modeling',
+          'Node.js',
+          'React',
+          'TypeScript',
+          'REST API',
+          'Analytics',
+          'Data-Driven Systems',
+          'Dashboarding',
+          'Chart.js',
+        ],
+        link: 'https://scg-der.cloud.com.vc/',
       },
       {
-        title: 'PySpark Data Pipeline Framework',
+        title: 'Titanic Data Pipeline (End-to-End)',
         description:
-          'Reusable framework for building scalable and observable PySpark pipelines with logging, quality validation and modular components.',
-        tags: ['PySpark', 'Python', 'Data Quality', 'AWS'],
-        link: 'https://github.com/Leosoares96',
+          'Reproducible data pipeline with ingestion, transformation, data quality validation, and a serving layer with an interactive Streamlit dashboard.',
+        tags: [
+          'Python',
+          'Pandas',
+          'Data Pipeline',
+          'Data Quality',
+          'SQLite',
+          'Parquet',
+          'Streamlit',
+        ],
+        link: 'https://github.com/leosoares96/titanic-data-pipeline-streamlit/',
       },
       {
-        title: 'Event-Driven Data Pipeline',
+        title: 'NYC Taxi Analytics Pipeline (Scalable)',
         description:
-          'Example architecture using Kafka and cloud processing to build event-driven data pipelines.',
-        tags: ['Kafka', 'AWS', 'Lambda', 'Step Functions'],
-        link: 'https://github.com/Leosoares96',
-      },
-      {
-        title: 'Data Mesh Example Implementation',
-        description:
-          'Example project demonstrating domain-oriented data architecture and reusable data products.',
-        tags: ['Data Mesh', 'Terraform', 'AWS', 'Python'],
-        link: 'https://github.com/Leosoares96',
+          'Modern batch pipeline using Airflow, dbt, and DuckDB to process large-scale mobility data with analytical modeling and visualization.',
+        tags: [
+          'Airflow',
+          'dbt',
+          'DuckDB',
+          'Analytics Engineering',
+          'ELT',
+          'Data Modeling',
+          'Streamlit',
+        ],
+        link: 'https://github.com/leosoares96/nyc-taxi-analytics-pipeline/',
       },
     ],
   },
