@@ -34,8 +34,18 @@ export const en = {
     items: [
       {
         company: 'Itaú Unibanco',
+        role: 'Data Engineer - Tech Lead | Data Platform',
+        period: 'Jul/2026 – Present',
+        highlights: [
+          'Technical lead of the data platform supporting Itaú’s pricing engines, owning the analytical models that feed pricing decisions.',
+          'Responsible for the end-to-end data management of the pricing domain — modeling, pipelines, governance, and quality of the datasets consumed by the engines.',
+          'Partner with product, risk, and engineering stakeholders to translate pricing rules into reliable, auditable, and reusable data assets.',
+        ],
+      },
+      {
+        company: 'Itaú Unibanco',
         role: 'Data Engineer - Subject Matter Expert (SME)',
-        period: 'Nov/2025 – Present',
+        period: 'Nov/2025 – Jul/2026',
         highlights: [
           'Acted as Data SME responsible for the architectural vision and governance of RT Mais Vantagens PJ, Itaú’s benefits program, ensuring standardization, scalability, and reliability across squads.',
           'Defined cross-squad architectures and created reusable assets (data products, components, and technical standards), promoting reuse, decoupling, sustainable evolution, and faster delivery.',
@@ -99,6 +109,7 @@ export const en = {
   projects: {
     sectionTitle: 'Projects',
     viewRepo: 'View Repository',
+    studyLabel: 'Study Project',
     items: [
       {
         title:
@@ -118,6 +129,7 @@ export const en = {
           'Chart.js',
         ],
         link: 'https://scg-der.cloud.com.vc/',
+        study: false,
       },
       {
         title: 'Sindicante Digital – Data-Driven Claims Management Platform',
@@ -136,6 +148,7 @@ export const en = {
           'Decision Systems',
         ],
         link: 'https://sindicantedigital.com/',
+        study: false,
       },
       {
         title: 'Titanic Data Pipeline',
@@ -151,6 +164,7 @@ export const en = {
           'Streamlit',
         ],
         link: 'https://github.com/leosoares96/titanic-data-pipeline-streamlit/',
+        study: true,
       },
       {
         title: 'NYC Taxi Analytics Pipeline',
@@ -166,6 +180,7 @@ export const en = {
           'Streamlit',
         ],
         link: 'https://github.com/leosoares96/nyc-taxi-analytics-pipeline/',
+        study: true,
       },
     ],
   },
@@ -217,6 +232,10 @@ export const en = {
     items: [
       {
         name: 'AWS Certified Data Engineer – Associate',
+        issuer: 'Amazon Web Services',
+      },
+      {
+        name: 'AWS Certified AI Practitioner',
         issuer: 'Amazon Web Services',
       },
       {

@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# leosoares96.github.io
 
-## Project info
+Personal portfolio of **Leonardo Soares** — Senior Data Engineer, Tech Lead and Data Architect.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 **Live site:** https://leosoares96.github.io/
 
-## How can I edit this code?
+The site is bilingual (English / Portuguese) and covers professional experience, selected projects, tech stack, education, certifications and awards.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Certifications featured
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- AWS Certified Data Engineer – Associate
+- AWS Certified AI Practitioner
+- AWS Certified Cloud Practitioner
+- Professional Data Engineering — Itaú Unibanco
+- Associate Data Engineering — Itaú Unibanco
+- Associate Analytics Engineering — Itaú Unibanco
+- Practitioner Data & Analytics — Itaú Unibanco
+- Practitioner Generative AI — Itaú Unibanco
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Tech stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Area | Tools |
+| --- | --- |
+| Framework | React 18, TypeScript, Vite |
+| Styling | Tailwind CSS, shadcn/ui, Framer Motion |
+| Testing | Vitest, Playwright |
+| Hosting | GitHub Pages |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Running locally
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Requires Node.js 18+.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Other useful scripts:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+```bash
+npm run test
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Project structure
 
-This project is built with:
+```
+src/
+├── components/     # Section components (Hero, Experience, Projects, ...)
+├── components/ui/  # shadcn/ui primitives
+├── i18n/           # Content in English (en.ts) and Portuguese (pt.ts)
+├── pages/          # Route-level components
+└── test/           # Vitest setup and unit tests
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+All page content lives in `src/i18n/en.ts` and `src/i18n/pt.ts` — editing those two files updates the whole site.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Contact
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Portfolio:** https://leosoares96.github.io/
+- **LinkedIn:** https://www.linkedin.com/in/leonardo-soares/
+- **GitHub:** https://github.com/leosoares96
+- **Medium:** https://medium.com/@leosoares96
+- **Credly:** https://www.credly.com/users/leonardo-soares-pereira/badges
