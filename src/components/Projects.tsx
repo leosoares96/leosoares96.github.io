@@ -23,7 +23,14 @@ export default function Projects() {
               {/* Hover glow */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
 
-              <h3 className="text-lg font-semibold text-foreground mb-2 relative z-10">{project.title}</h3>
+              <div className="flex items-start justify-between gap-3 mb-2 relative z-10">
+                <h3 className="text-lg font-semibold text-foreground">{project.title}</h3>
+                {project.study && (
+                  <span className="shrink-0 mt-0.5 px-2 py-1 rounded-md border border-primary/30 bg-primary/10 text-primary font-mono text-[10px] uppercase tracking-wider">
+                    {t.projects.studyLabel}
+                  </span>
+                )}
+              </div>
               <p className="text-sm text-muted-foreground leading-relaxed mb-5 relative z-10 flex-1">
                 {project.description}
               </p>
