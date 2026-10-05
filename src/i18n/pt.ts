@@ -252,6 +252,10 @@ export const pt = {
         name: 'AWS Certified Cloud Practitioner',
         issuer: 'Amazon Web Services',
       },
+      {
+        name: 'AWS Data Lakehouse Demonstrated',
+        issuer: 'Amazon Web Services · Microcredential (exam lab prático)',
+      },
       { name: 'Professional Data Engineering', issuer: 'Itaú Unibanco' },
       { name: 'Associate Data Engineering', issuer: 'Itaú Unibanco' },
       { name: 'Associate Analytics Engineering', issuer: 'Itaú Unibanco' },
