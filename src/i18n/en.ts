@@ -169,14 +169,13 @@ export const en = {
       {
         title: 'NYC Taxi Analytics Pipeline',
         description:
-          'Modern batch pipeline using Airflow, dbt, and DuckDB to process large-scale mobility data with analytical modeling and visualization.',
+          'Analytics pipeline over NYC yellow taxi trip data: ingestion from Kaggle, aggregations in DuckDB, data validation with Great Expectations, and an interactive Streamlit dashboard for urban mobility patterns.',
         tags: [
-          'Airflow',
-          'dbt',
+          'Python',
           'DuckDB',
-          'Analytics Engineering',
-          'ELT',
-          'Data Modeling',
+          'Pandas',
+          'Great Expectations',
+          'Data Quality',
           'Streamlit',
         ],
         link: 'https://github.com/leosoares96/nyc-taxi-analytics-pipeline/',
