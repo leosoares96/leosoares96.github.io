@@ -169,13 +169,12 @@ export const en = {
       {
         title: 'NYC Taxi Analytics Pipeline',
         description:
-          'Analytics pipeline over NYC yellow taxi trip data: ingestion from Kaggle, aggregations in DuckDB, data validation with Great Expectations, and an interactive Streamlit dashboard for urban mobility patterns.',
+          'Analytics pipeline over NYC yellow taxi trip data: ingestion from Kaggle, analytical aggregations in DuckDB, and an interactive Streamlit dashboard for urban mobility patterns.',
         tags: [
           'Python',
           'DuckDB',
           'Pandas',
-          'Great Expectations',
-          'Data Quality',
+          'Parquet',
           'Streamlit',
         ],
         link: 'https://github.com/leosoares96/nyc-taxi-analytics-pipeline/',

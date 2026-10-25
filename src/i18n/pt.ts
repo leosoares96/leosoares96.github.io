@@ -179,13 +179,12 @@ export const pt = {
       {
         title: 'Pipeline Analítico NYC Taxi',
         description:
-          'Pipeline analítico sobre corridas de táxi amarelo de NYC: ingestão do Kaggle, agregações em DuckDB, validação de dados com Great Expectations e dashboard interativo em Streamlit para padrões de mobilidade urbana.',
+          'Pipeline analítico sobre corridas de táxi amarelo de NYC: ingestão do Kaggle, agregações analíticas em DuckDB e dashboard interativo em Streamlit para padrões de mobilidade urbana.',
         tags: [
           'Python',
           'DuckDB',
           'Pandas',
-          'Great Expectations',
-          'Data Quality',
+          'Parquet',
           'Streamlit',
         ],
         link: 'https://github.com/leosoares96/nyc-taxi-analytics-pipeline/',
